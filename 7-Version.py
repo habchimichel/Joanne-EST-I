@@ -3,7 +3,7 @@ from dash import dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 import plotly.graph_objs as go
 import pandas as pd
-import dash_core_components as dcc
+from dash import dcc
 import plotly.graph_objects as go
 
 # Load data
