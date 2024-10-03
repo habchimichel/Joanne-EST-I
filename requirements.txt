@@ -3,3 +3,4 @@ pandas
 gunicorn
 dash-bootstrap-components
 openpyxl
+Flask>=2.0.0
