@@ -28,7 +28,7 @@ max_scores = {
 
 # Initialize the app with a Bootstrap theme
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SPACELAB])
-
+server = app.server
 # App layout
 app.layout = dbc.Container([
     dbc.Row([
